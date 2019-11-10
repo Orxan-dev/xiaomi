@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#header {
+  z-index: 1000;
+  width: 100%;
+  position: fixed; }
+  #header .logo {
+    background-color: #D8232D;
+    padding: 40px 10px; }
+    #header .logo a {
+      text-align: center;
+      text-decoration: none; }
+      #header .logo a h2 {
+        font-size: 15px;
+        color: white; }
+  #header .header-top a {
+    color: white;
+    text-decoration: none; }
+    #header .header-top a i {
+      color: #D8232D; }
+    #header .header-top a:hover {
+      color: #D8232D; }
+  #header .header-top span {
+    cursor: pointer;
+    margin-left: 45px;
+    color: white; }
+    #header .header-top span i {
+      color: #D8232D; }
+    #header .header-top span:hover {
+      color: #D8232D; }
+  #header .header-footer .textheader li {
+    cursor: pointer;
+    padding: 8px; }
+    #header .header-footer .textheader li a {
+      font-size: 14px;
+      height: 100%;
+      text-transform: uppercase;
+      font-family: 'allerregular';
+      display: block;
+      text-decoration: none;
+      color: white; }
+    #header .header-footer .textheader li i {
+      color: white; }
+      #header .header-footer .textheader li i:hover {
+        color: #D8232D; }
+
+#section2 .yazi h3 {
+  color: red; }
+#section2 .yazi hr {
+  height: 1px;
+  width: 50px;
+  color: red; }
+
+/*# sourceMappingURL=style.css.map */
